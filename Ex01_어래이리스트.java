@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Ex01_¾î·¡ÀÌ¸®½ºÆ® {
+public class Ex01_ì–´ë˜ì´ë¦¬ìŠ¤íŠ¸ {
 
 	public static void main(String[] args) {
 
@@ -10,32 +10,32 @@ public class Ex01_¾î·¡ÀÌ¸®½ºÆ® {
 		int[] array = new int[5];
 		array[0] = 10;
 
-		// ArrayList ¼±¾ğ ¹æ¹ı
-		// ArrayList<Å¸ÀÔ> ÀÌ¸§ = new ArrayList<Å¸ÀÔ>();
+		// ArrayList ì„ ì–¸ ë°©ë²•
+		// ArrayList<íƒ€ì…> ì´ë¦„ = new ArrayList<íƒ€ì…>();
 		ArrayList<String> arrayList = new ArrayList<String>();
 
-		// °ª Ãß°¡
-		// ÀÌ¸§.add("µé¾î°¥ °ª");
-		arrayList.add("½ÂÈ¯");
-		arrayList.add("º´°ü");
-		arrayList.add("¼ö¹Î");
+		// ê°’ ì¶”ê°€ 0ë¶€í„° ê³„ì† ì¶”ê°€ë¨
+		// ì´ë¦„.add("ë“¤ì–´ê°ˆ ê°’");
+		arrayList.add("ìŠ¹í™˜");
+		arrayList.add("ë³‘ê´€");
+		arrayList.add("ìˆ˜ë¯¼");
 
-		// ¿øÇÏ´Â À§Ä¡¿¡ °ª Ãß°¡! ¼öÁ¤ÀÌ ¾Æ´Ô
-		// ÀÌ¸§.add(ÀÎµ¦½º, "µé¾î°¥ °ª");
-		arrayList.add(1, "ÅÂ°æ");
+		// ì›í•˜ëŠ” ìœ„ì¹˜ì— ê°’ ì¶”ê°€! ìˆ˜ì •ì´ ì•„ë‹˜
+		// ì´ë¦„.add(ì¸ë±ìŠ¤, "ë“¤ì–´ê°ˆ ê°’");
+		arrayList.add(1, "íƒœê²½");
 
-		// ¼öÁ¤
-		// ÀÌ¸§.set(ÀÎµ¦½º, "µé¾î°¥ °ª")
-		arrayList.set(2, "¹Î¼­");
+		// ìˆ˜ì •
+		// ì´ë¦„.set(ì¸ë±ìŠ¤, "ë“¤ì–´ê°ˆ ê°’")
+		arrayList.set(2, "ë¯¼ì„œ");
 
-		// °ª »èÁ¦!
-		// ÀÌ¸§.remove(»èÁ¦ÇÒ ÀÎµ¦½º)
+		// ê°’ ì‚­ì œ!
+		// ì´ë¦„.remove(ì‚­ì œí•  ì¸ë±ìŠ¤)
 		arrayList.remove(arrayList.size() - 1);
 
-		// arrayList Ãâ·Â
-		// arrayListÀÇ Å©±â -> size()
+		// arrayList ì¶œë ¥
+		// arrayListì˜ í¬ê¸° -> size()
 		for (int i = 0; i < arrayList.size(); i++) {
-			// °ª °¡Á®¿À±â -> ÀÌ¸§.get(index)
+			// ê°’ ê°€ì ¸ì˜¤ê¸° -> ì´ë¦„.get(index)
 			System.out.println(arrayList.get(i));
 		}
 	}
